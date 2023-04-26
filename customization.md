@@ -12,15 +12,13 @@
         <main>
           <article class="profile">
             <picture class="profile-img">
-              <source srcset="images/profile.png" media="(min-width: 600px)">
-              <img src="images/profile.png" alt="profile">
+              <source srcset="images/genes.png" media="(min-width: 600px)">
+              <img src="images/genes.png" alt="profile">
             </picture>
             <div class="content">
               <p class="detail">Coding Profile</p>
-                <h1>NAME</h1>
-              <p>
-                Highschool student who has been coding for 3 years.
-              </p>
+                <h1>Jeongwoo Lee</h1>
+              <p>High school student who is Junior at Del Norte</p>
               <a href="https://pages.github.com/" class="button"></a>
             </div>
           </article>

@@ -13,6 +13,7 @@
 <button id="btn_stop" >Stop Snake Game</button>
 <p id="end_msg"></p>
 <canvas width="400" height="400" id="game"></canvas>
+<img width= "300" height="300" src="images/snake.png">
 <script>
 var canvas = document.getElementById('game');
 var context = canvas.getContext('2d');

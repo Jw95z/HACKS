@@ -2,7 +2,7 @@ html, body {
   height: 100%;
   }
 body {
-  background: linear-gradient(white,#b8b8d1);
+  background: linear-gradient(gray,#f9f9f9);
   align-items: center;
   justify-content: center;
   height: 100%;
@@ -10,8 +10,8 @@ body {
   background-attachment: fixed;
 }
 canvas {
-  background: tan;
-  text-align:center;
+  background: yellow;
+  text-align: center;
   padding-left: 0;
   padding-right: 0;
   top: 150px;
@@ -22,8 +22,8 @@ canvas {
   position: absolute;
 }
 :root {
-  --apple: blue;
-  --snake: purple;
+  --apple: red;
+  --snake: pink;
 }
 #p1 {
   color:purple;
@@ -39,19 +39,19 @@ canvas {
   padding-top: 25px;
 }
 #score {
-  color:purple;
+  color:black;
   position:relative;
   padding-left: 50px;
   padding-top: 25px;
 }
 #high {
-  color:purple;
+  color:brown;
   position:relative;
   padding-left: 50px;
   padding-top: 25px;
 }
 #btn_stop {
-  color:purple;
+  color:orange;
   position:absolute;
   bottom: 50px;
   right: 43%;
@@ -64,8 +64,8 @@ canvas {
 }
 button {
   border-radius: 20px;
-  background-color: white;
-  color: purple;
+  background-color: rgba(255, 255, 255, 0.247);
+  color:green;
   font-size: 12px;
   font-weight: bold;
   padding: 12px 45px;
